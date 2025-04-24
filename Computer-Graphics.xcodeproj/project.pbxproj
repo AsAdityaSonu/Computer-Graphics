@@ -24,15 +24,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA6BD1F82D36800C00D193C5 /* Computer-Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Computer-Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6D21E62D3F43710055F54E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FA6D21E82D3F437A0055F54E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		FA8E529E2DA73D6C0075C6E8 /* Computer-Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Computer-Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FA6BD1FA2D36800C00D193C5 /* Computer-Graphics */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Computer-Graphics";
+			sourceTree = "<group>";
+		};
+		FAEA33E52DA043E5003BC1C6 /* Projects */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,16 +60,9 @@
 			children = (
 				FA6BD1FA2D36800C00D193C5 /* Computer-Graphics */,
 				FA6D21E52D3F43710055F54E /* Frameworks */,
-				FA6BD1F92D36800C00D193C5 /* Products */,
+				FAEA33E52DA043E5003BC1C6 /* Projects */,
+				FA8E529E2DA73D6C0075C6E8 /* Computer-Graphics */,
 			);
-			sourceTree = "<group>";
-		};
-		FA6BD1F92D36800C00D193C5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA6BD1F82D36800C00D193C5 /* Computer-Graphics */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FA6D21E52D3F43710055F54E /* Frameworks */ = {
@@ -93,12 +91,13 @@
 			);
 			fileSystemSynchronizedGroups = (
 				FA6BD1FA2D36800C00D193C5 /* Computer-Graphics */,
+				FAEA33E52DA043E5003BC1C6 /* Projects */,
 			);
 			name = "Computer-Graphics";
 			packageProductDependencies = (
 			);
 			productName = "Computer-Graphics";
-			productReference = FA6BD1F82D36800C00D193C5 /* Computer-Graphics */;
+			productReference = FA8E529E2DA73D6C0075C6E8 /* Computer-Graphics */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +124,7 @@
 			mainGroup = FA6BD1EF2D36800C00D193C5;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FA6BD1F92D36800C00D193C5 /* Products */;
+			productRefGroup = FA6BD1EF2D36800C00D193C5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
